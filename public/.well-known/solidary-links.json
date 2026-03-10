@@ -1,16 +1,26 @@
 {
-  "@context": {
-    "site": "urn:solidary:type:site",
-    "connection": "urn:solidary:type:connection",
-    "site_id": "urn:solidary:term:site_id",
-    "connections": {
-      "@id": "urn:solidary:term:connections",
-      "@container": "@set"
+    "@id": "https://jazbogross.github.io/site",
+    "@type": "site",
+    "site_id": "de04b546-646c-475b-ba02-4f912fe38d29",
+    "@context": {
+        "site": "urn:solidary:type:site",
+        "site_id": "urn:solidary:term:site_id",
+        "connection": "urn:solidary:type:connection",
+        "connections": {
+            "@id": "urn:solidary:term:connections",
+            "@container": "@set"
+        },
+        "connected_site": "urn:solidary:term:connected_site"
     },
-    "connected_site": "urn:solidary:term:connected_site"
-  },
-  "@id": "https://jazbogross.github.io/site",
-  "@type": "site",
-  "site_id": "de04b546-646c-475b-ba02-4f912fe38d29",
-  "connections": []
+    "connections": [
+        {
+            "@id": "urn:uuid:43266a89-20cc-4436-bab5-3fe19ad5932a",
+            "@type": "connection",
+            "connected_site": {
+                "@id": "https://theatrebuilding.github.io/test",
+                "@type": "site",
+                "site_id": "e5f8986e-e898-41c3-bfe2-d1c180d096e4"
+            }
+        }
+    ]
 }
