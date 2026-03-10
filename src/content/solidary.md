@@ -1,6 +1,7 @@
 ---
-title: "site"
-description: "Describe your site in a sentence or two."
+title: "one"
+description: "new site"
 url: "https://jazbogross.github.io/site"
-ogImage: "https://jazbogross.github.io/site/solidary-media/images/og/og-home.jpg"
+ogImage: "/solidary-media/images/site-image.jpg"
+robots: "index,follow"
 ---
