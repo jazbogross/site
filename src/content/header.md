@@ -1,6 +1,6 @@
 ---
 disabled: false
 fixed: true
-brandText: "site"
+brandText: "Rose"
 disableBrand: false
 ---
