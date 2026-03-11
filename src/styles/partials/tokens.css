@@ -1,6 +1,6 @@
 :root{  --bg: rgba(166, 166, 100, 1);
-  --header-bg: rgba(251, 251, 249, 0);
-  --footer-bg: rgba(251, 251, 249, 0);
+  --header-bg: rgba(166, 166, 100, 1);
+  --footer-bg: rgba(166, 166, 100, 1);
   --fg: #1a1a1a;
   --muted: #5b5b5b;
   --link: #0b3d91;
