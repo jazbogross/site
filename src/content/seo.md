@@ -1,8 +1,8 @@
 ---
-twitter: true
-openGraph: true
-structuredData: true
-indexFollow: true
-locale: "en-US"
+twitter: false
+openGraph: false
+structuredData: false
+indexFollow: false
+locale: "en-GB"
 headHtml: ""
 ---

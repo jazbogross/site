@@ -5,4 +5,4 @@ showInNav: false
 navOrder: 0
 javascript: ""
 ---
-Write your page content here.
+<h1>Homepage</h1><p>where you will find a short introduction to this site.</p>
