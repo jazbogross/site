@@ -5,7 +5,7 @@
   --muted: #5b5b5b;
   --link: #0b3d91;
   --border: rgba(0,0,0,.12);
-  --maxw: 900px;
+  --maxw: auto;
   --page-padding-y: 32px;
   --page-padding-x: 24px;
   --content-block-gap: 16px;
