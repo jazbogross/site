@@ -9,7 +9,7 @@
     },
     "connected_site": "urn:solidary:term:connected_site"
   },
-  "@id": "https://jazbogross.github.io/site",
+  "@id": "https://red-rose-on-green-background.netlify.app",
   "@type": "site",
   "site_id": "de04b546-646c-475b-ba02-4f912fe38d29",
   "connections": [
