@@ -1,12 +1,17 @@
 import type { APIRoute } from "astro";
+import solidaryContent from "../content/solidary.md";
+import { parseSolidaryFrontmatter } from "../solidary-config/site";
+
+type MarkdownModule = { frontmatter?: Record<string, unknown> };
 
 export const GET: APIRoute = () => {
-  const site = import.meta.env.SITE_URL;
+  const solidary = parseSolidaryFrontmatter((solidaryContent as MarkdownModule).frontmatter);
+  const site = solidary.url.trim().replace(/\/+$/, "");
+  const sitemapLine = site ? `Sitemap: ${site}/sitemap-index.xml\n` : "";
   const body = `User-agent: *
 Allow: /
 
-Sitemap: ${site}/sitemap-index.xml
-`;
+${sitemapLine}`;
   return new Response(body, {
     headers: { "Content-Type": "text/plain; charset=utf-8" },
   });
